@@ -12,9 +12,9 @@ For a better analysis of the information, a process called "tidying" is applied 
 ###Variables
 The resulting tidy data set consists of 81 variables which are described below:
 
-* #####subject
+* ####subject
     Number that identifies the subject performing the activities. From 1 to 30.
-* #####activity
+* ####activity
     Identifies the activity performed by the subject. It may be one of the following values:
     * LAYING
     * SITTING
@@ -22,135 +22,135 @@ The resulting tidy data set consists of 81 variables which are described below:
     * WALKING
     * WALKING_DOWNSTAIRS
     * WALKING_UPSTAIRS
-* ##### tBodyAcc-mean()-X
+* #### tBodyAcc-mean()-X
 Average of the mean of the body acceleration time domain signals (X direction). In standard gravity units (g).
-* #####tBodyAcc-mean()-Y
+* ####tBodyAcc-mean()-Y
 Average of the mean of the body acceleration time domain signals (Y direction). In standard gravity units (g).
-* #####tBodyAcc-mean()-Z
+* ####tBodyAcc-mean()-Z
 Average of the mean of the body acceleration time domain signals (Z direction). In standard gravity units (g).
-* #####tBodyAcc-std()-X
+* ####tBodyAcc-std()-X
 Average of the standard deviation of the body acceleration time domain signals (X direction). In standard gravity units (g).
-* #####tBodyAcc-std()-Y
+* ####tBodyAcc-std()-Y
 Average of the standard deviation of the body acceleration time domain signals (Y direction). In standard gravity units (g).
-* #####tBodyAcc-std()-Z
+* ####tBodyAcc-std()-Z
 Average of the standard deviation of the body acceleration time domain signals (Z direction). In standard gravity units (g).
-* #####tGravityAcc-mean()-X
+* ####tGravityAcc-mean()-X
 Average of the mean of the gravity acceleration time domain signals (X direction). In standard gravity units (g).
-* #####tGravityAcc-mean()-Y
+* ####tGravityAcc-mean()-Y
 Average of the mean of the gravity acceleration time domain signals (Y direction). In standard gravity units (g).
-* #####tGravityAcc-mean()-Z
+* ####tGravityAcc-mean()-Z
 Average of the mean of the gravity acceleration time domain signals (Z direction). In standard gravity units (g).
-* #####tGravityAcc-std()-X
+* ####tGravityAcc-std()-X
 Average of the standard deviation of the gravity acceleration time domain signals (X direction). In standard gravity units (g).
-* #####tGravityAcc-std()-Y
+* ####tGravityAcc-std()-Y
 Average of the standard deviation of the gravity acceleration time domain signals (Y direction). In standard gravity units (g).
-* #####tGravityAcc-std()-Z
+* ####tGravityAcc-std()-Z
 Average of the standard deviation of the gravity acceleration time domain signals (Z direction). In standard gravity units (g).
-* #####tBodyAccJerk-mean()-X
+* ####tBodyAccJerk-mean()-X
 Average of the mean of the body acceleration time domain jerk signals (X direction). In standard gravity units (g).
-* #####tBodyAccJerk-mean()-Y
+* ####tBodyAccJerk-mean()-Y
 Average of the mean of the body acceleration time domain jerk signals (Y direction). In standard gravity units (g).
-* #####tBodyAccJerk-mean()-Z
+* ####tBodyAccJerk-mean()-Z
 Average of the mean of the body acceleration time domain jerk signals (Z direction). In standard gravity units (g).
-* #####tBodyAccJerk-std()-X
+* ####tBodyAccJerk-std()-X
 Average of the standard deviation of the body acceleration time domain jerk signals (X direction). In standard gravity units (g).
-* #####tBodyAccJerk-std()-Y
+* ####tBodyAccJerk-std()-Y
 Average of the standard deviation of the body acceleration time domain jerk signals (Y direction). In standard gravity units (g).
-* #####tBodyAccJerk-std()-Z
+* ####tBodyAccJerk-std()-Z
 Average of the standard deviation of the body acceleration time domain jerk signals (Z direction). In standard gravity units (g).
-* #####tBodyGyro-mean()-X
+* ####tBodyGyro-mean()-X
 Average of the mean of the time domain signals measured by the gyroscope (X direction). The units are radians/second.
-* #####tBodyGyro-mean()-Y
+* ####tBodyGyro-mean()-Y
 Average of the mean of the time domain signals measured by the gyroscope (Y direction). The units are radians/second.
-* #####tBodyGyro-mean()-Z
+* ####tBodyGyro-mean()-Z
 Average of the mean of the time domain signals measured by the gyroscope (Z direction). The units are radians/second.
-* #####tBodyGyro-std()-X
+* ####tBodyGyro-std()-X
 Average of the standard deviation of the time domain signals measured by the gyroscope (X direction). The units are radians/second.
-* #####tBodyGyro-std()-Y
+* ####tBodyGyro-std()-Y
 Average of the standard deviation of the time domain signals measured by the gyroscope (Y direction). The units are radians/second.
-* #####tBodyGyro-std()-Z
+* ####tBodyGyro-std()-Z
 Average of the standard deviation of the time domain signals measured by the gyroscope (Z direction). The units are radians/second.
-* #####tBodyGyroJerk-mean()-X
+* ####tBodyGyroJerk-mean()-X
 Average of the mean of the time domain jerk signals measured by the gyroscope (X direction). The units are radians/second.
-* #####tBodyGyroJerk-mean()-Y
+* ####tBodyGyroJerk-mean()-Y
 Average of the mean of the time domain jerk signals measured by the gyroscope (Y direction). The units are radians/second.
-* #####tBodyGyroJerk-mean()-Z
+* ####tBodyGyroJerk-mean()-Z
 Average of the mean of the time domain jerk signals measured by the gyroscope (Z direction). The units are radians/second.
-* #####tBodyGyroJerk-std()-X
+* ####tBodyGyroJerk-std()-X
 Average of the standard deviation of the time domain jerk signals measured by the gyroscope (X direction). The units are radians/second.
-* #####tBodyGyroJerk-std()-Y
+* ####tBodyGyroJerk-std()-Y
 Average of the standard deviation of the time domain jerk signals measured by the gyroscope (Y direction). The units are radians/second.
-* #####tBodyGyroJerk-std()-Z
+* ####tBodyGyroJerk-std()-Z
 Average of the standard deviation of the time domain jerk signals measured by the gyroscope (Z direction). The units are radians/second.
-* #####tBodyAccMag-mean()
+* ####tBodyAccMag-mean()
 Average of the mean of the magnitude of the three-dimensional body acceleration signals calculated using the Euclidean norm.
-* #####tBodyAccMag-std()
+* ####tBodyAccMag-std()
 Average of the standard deviation of the magnitude of the three-dimensional body acceleration signals calculated using the Euclidean norm.
-* #####tGravityAccMag-mean()
+* ####tGravityAccMag-mean()
 Average of the mean of the magnitude of the three-dimensional gravity acceleration signals calculated using the Euclidean norm.
-* #####tGravityAccMag-std()
+* ####tGravityAccMag-std()
 Average of the standard deviation of the magnitude of the three-dimensional gravity acceleration signals calculated using the Euclidean norm.
-* #####tBodyAccJerkMag-mean()
+* ####tBodyAccJerkMag-mean()
 Average of the mean of the magnitude of the three-dimensional body acceleration jerk signals calculated using the Euclidean norm.
-* #####tBodyAccJerkMag-std()
+* ####tBodyAccJerkMag-std()
 Average of the standard deviation of the magnitude of the three-dimensional body acceleration jerk signals calculated using the Euclidean norm.
-* #####tBodyGyroMag-mean()
+* ####tBodyGyroMag-mean()
 Average of the mean of the magnitude of the three-dimensional gyroscope signals calculated using the Euclidean norm.
-* #####tBodyGyroMag-std()
+* ####tBodyGyroMag-std()
 Average of the standard deviation of the magnitude of the three-dimensional gyroscope signals calculated using the Euclidean norm.
-* #####tBodyGyroJerkMag-mean()
+* ####tBodyGyroJerkMag-mean()
 Average of the mean of the magnitude of the three-dimensional gyroscope jerk signals calculated using the Euclidean norm.
-* #####tBodyGyroJerkMag-std()
+* ####tBodyGyroJerkMag-std()
 Average of the standard deviation of the magnitude of the three-dimensional gyroscope jerk signals calculated using the Euclidean norm.
-* #####fBodyAcc-mean()-X
+* ####fBodyAcc-mean()-X
 Average of the mean of the body acceleration fast fourier transformed signals (X direction). In standard gravity units (g).
-* #####fBodyAcc-mean()-Y
+* ####fBodyAcc-mean()-Y
 Average of the mean of the body acceleration fast fourier transformed signals (Y direction). In standard gravity units (g).
-* #####fBodyAcc-mean()-Z
+* ####fBodyAcc-mean()-Z
 Average of the mean of the body acceleration fast fourier transformed signals (Z direction). In standard gravity units (g).
-* #####fBodyAcc-std()-X
+* ####fBodyAcc-std()-X
 Average of the standard deviation of the body acceleration fast fourier transformed signals (X direction). In standard gravity units (g).
-* #####fBodyAcc-std()-Y
+* ####fBodyAcc-std()-Y
 Average of the standard deviation of the body acceleration fast fourier transformed signals (Y direction). In standard gravity units (g).
-* #####fBodyAcc-std()-Z
+* ####fBodyAcc-std()-Z
 Average of the standard deviation of the body acceleration fast fourier transformed signals (Z direction). In standard gravity units (g).
-* #####fBodyAccJerk-mean()-X
+* ####fBodyAccJerk-mean()-X
 Average of the mean of the body acceleration fast fourier transformed jerk signals (X direction). In standard gravity units (g).
-* #####fBodyAccJerk-mean()-Y
+* ####fBodyAccJerk-mean()-Y
 Average of the mean of the body acceleration fast fourier transformed jerk signals (Y direction). In standard gravity units (g).
-* #####fBodyAccJerk-mean()-Z
+* ####fBodyAccJerk-mean()-Z
 Average of the mean of the body acceleration fast fourier transformed jerk signals (Z direction). In standard gravity units (g).
-* #####fBodyAccJerk-std()-X
+* ####fBodyAccJerk-std()-X
 Average of the standard deviation of the body acceleration fast fourier transformed jerk signals (X direction). In standard gravity units (g).
-* #####fBodyAccJerk-std()-Y
+* ####fBodyAccJerk-std()-Y
 Average of the standard deviation of the body acceleration fast fourier transformed jerk signals (Y direction). In standard gravity units (g).
-* #####fBodyAccJerk-std()-Z
+* ####fBodyAccJerk-std()-Z
 Average of the standard deviation of the body acceleration fast fourier transformed jerk signals (Z direction). In standard gravity units (g).
-* #####fBodyGyro-mean()-X
+* ####fBodyGyro-mean()-X
 Average of the mean of the fast fourier transformed signals measured by the gyroscope (X direction). The units are radians/second.
-* #####fBodyGyro-mean()-Y
+* ####fBodyGyro-mean()-Y
 Average of the mean of the fast fourier transformed signals measured by the gyroscope (Y direction). The units are radians/second.
-* #####fBodyGyro-mean()-Z
+* ####fBodyGyro-mean()-Z
 Average of the mean of the fast fourier transformed signals measured by the gyroscope (Z direction). The units are radians/second.
-* #####fBodyGyro-std()-X
+* ####fBodyGyro-std()-X
 Average of the standard deviation of the fast fourier transformed signals measured by the gyroscope (X direction). The units are radians/second.
-* #####fBodyGyro-std()-Y
+* ####fBodyGyro-std()-Y
 Average of the standard deviation of the fast fourier transformed signals measured by the gyroscope (Y direction). The units are radians/second.
-* #####fBodyGyro-std()-Z
+* ####fBodyGyro-std()-Z
 Average of the standard deviation of the fast fourier transformed signals measured by the gyroscope (Z direction). The units are radians/second.
-* #####fBodyAccMag-mean()
+* ####fBodyAccMag-mean()
 Average of the mean of the magnitude of the three-dimensional body acceleration signals fast fourier transformed) calculated using the Euclidean norm.
-* #####fBodyAccMag-std()
+* ####fBodyAccMag-std()
 Average of the standard deviation of the magnitude of the three-dimensional body acceleration signals (fast fourier transformed) calculated using the Euclidean norm.
-* #####fBodyBodyAccJerkMag-mean()
+* ####fBodyBodyAccJerkMag-mean()
 Average of the mean of the magnitude of the three-dimensional body acceleration jerk signals (fast fourier transformed) calculated using the Euclidean norm.
-* #####fBodyBodyAccJerkMag-std()
+* ####fBodyBodyAccJerkMag-std()
 Average of the standard deviation of the magnitude of the three-dimensional body acceleration jerk signals (fast fourier transformed) calculated using the Euclidean norm.
-* #####fBodyBodyGyroMag-mean()
+* ####fBodyBodyGyroMag-mean()
 Average of the mean of the magnitude of the three-dimensional signals measured by the gyroscope (fast fourier transformed) calculated using the Euclidean norm.
-* #####fBodyBodyGyroMag-std()
+* ####fBodyBodyGyroMag-std()
 Average of the standard deviation of the magnitude of the three-dimensional signals measured by the gyroscope (fast fourier transformed) calculated using the Euclidean norm.
-* #####fBodyBodyGyroJerkMag-mean()
+* ####fBodyBodyGyroJerkMag-mean()
 Average of the mean of the magnitude of the three-dimensional jerk signals measured by the gyroscope (fast fourier transformed) calculated using the Euclidean norm.
-* #####fBodyBodyGyroJerkMag-std()
+* ####fBodyBodyGyroJerkMag-std()
 Average of the standard deviation of the magnitude of the three-dimensional jerk signals measured by the gyroscope (fast fourier transformed) calculated using the Euclidean norm.
